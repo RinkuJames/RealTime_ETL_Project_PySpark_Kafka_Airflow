@@ -8,4 +8,5 @@ __pycache__/
 # pytest cache
 .pytest_cache/
 
-airflow.db
+RealTime_ETL_Project_PySpark_Kafka_Airflow/airflow.db
+
