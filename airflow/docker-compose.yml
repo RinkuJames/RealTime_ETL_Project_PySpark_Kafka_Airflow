@@ -24,6 +24,7 @@ services:
       - AIRFLOW__CORE__EXECUTOR=SequentialExecutor
       - AIRFLOW__CORE__LOAD_EXAMPLES=False
     volumes:
+      - ./dags:/opt/airflow/dags
       - ./RealTime_ETL_Project_PySpark_Kafka_Airflow:/opt/airflow
     command: airflow scheduler
     restart: always
